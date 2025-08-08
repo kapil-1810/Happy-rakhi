@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 120" width="240" height="120">
+  <!-- long thread with tassels -->
+  <path d="M10 60 Q80 20, 120 60 T230 60" stroke="#8b2e2e" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- center medallion -->
+  <g transform="translate(120,60)">
+    <circle r="28" fill="#ffd07a" stroke="#b85a1f" stroke-width="3"/>
+    <circle r="16" fill="#fff8ee"/>
+    <path d="M-6,-6 L6,-6 L0,8 Z" fill="#d94f16"/>
+  </g>
+
+  <!-- left tassel -->
+  <g transform="translate(70,60)">
+    <rect x="-2" y="14" width="4" height="20" rx="2" fill="#d94f16"/>
+    <path d="M-10 34 Q-2 44, 6 34" fill="#e87b3a"/>
+  </g>
+
+  <!-- right tassel -->
+  <g transform="translate(170,60)">
+    <rect x="-2" y="14" width="4" height="20" rx="2" fill="#d94f16"/>
+    <path d="M-6 34 Q2 44, 10 34" fill="#e87b3a"/>
+  </g>
+</svg>
